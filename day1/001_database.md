@@ -9,6 +9,8 @@
 $ docker pull mysql:8.0.30
 $ docker run --name tutorial-mysql -v /Users/sonjeong-ug/kakao/data/tutorial-mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234 -d -p 3306:3306 mysql:8.0.30
 ```  
+>-v 옵셥은 volume을 의미합니다. 외부 호스트의 디스크를 내부의 논리적인 디스크의 영역에 쓸수 았게 합니다.  
+>-p 옵션은 포트바인딩을 의미합니다. 즉 도커 이미지 내부의 포트를 외부로 호스트 머신의 포트로 바인딩합니다.
 
 실행이 정상적으로 되었는지 아래의 명령어로 확인을 해보자. 설치가 잘 되었다면 아래와 같이 docker 프로세스가 잘 구동되어 있다는 것을 확인할 수 있다.
 
