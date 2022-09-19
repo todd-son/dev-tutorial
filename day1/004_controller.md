@@ -40,7 +40,34 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 
 https://restfulapi.net/
 
+그리고 일반적으로 REST에서는 Http Method는 POST(생성), PUT(수정), PATCH(행동, 부분 변경), GET(조회), DELETE(삭제)에 활용한다. 
+
+https://www.techtarget.com/searchapparchitecture/tip/The-5-essential-HTTP-methods-in-RESTful-API-development
+
 
 ## 어노테이션
 
 그리고 어노테이션의 무엇이며, 어떻게 해서 이러한 동작들이 가능한지 살펴보자. 어노테이션은 실제적으로는 아무런 동작을 하지 않는 것이다. 말 그대로 주석일 뿐 실제 동작은 리플렉션에 의해 이루어진다. 
+
+## HTTP Request 매핑
+
+@GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @PatchMapping 등의 어노테이션을 이용해서 URI Pattern를 매핑할 수 있다.
+
+@PathVariable, @RequestParam, @RequestBody, @RequestHeader 등의 어노테이션을 활용하여 각 Http의 요소들을 캡쳐할 수 있다.
+
+https://docs.spring.io/spring-framework/docs/current/reference/html/web.html#mvc-controller
+
+```java
+    @PostMapping("/members/{memberId}/sample")
+    public MemberDto sample(
+            @PathVariable("memberId") Long memberId,
+            @RequestParam("name") String name,
+            @RequestBody MemberDto memberDto) {
+        return new MemberDto(memberDto.getId(), name);
+    }
+```
+
+
+
+
+
