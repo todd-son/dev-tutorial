@@ -5,3 +5,4 @@
   * [스프링부트 설치](day1/002_springboot.md)
   * [API 만들어보기](day1/003_api.md)
   * [HTTP 프로토콜과 스프링컨트롤러](day1/004_controller.md)
+  * [데이터베이스에 저장해보기](day1/005_jpa.md)
