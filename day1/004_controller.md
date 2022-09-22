@@ -38,11 +38,11 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 
 우리는 앞으로 매우 다양한 API를 만들 것이다. 여기에 어떠한 형식으로 API를 표현할 것인지에 대한 본인만의 원칙 및 가이드가 필요하다. 아래는 요즘 유행하는 REST API의 가이드를 정리한 사이트이다.
 
-https://restfulapi.net/
+[https://restfulapi.net/](https://restfulapi.net/)
 
 그리고 일반적으로 REST에서는 Http Method는 POST(생성), PUT(수정), PATCH(행동, 부분 변경), GET(조회), DELETE(삭제)에 활용한다. 
 
-https://www.techtarget.com/searchapparchitecture/tip/The-5-essential-HTTP-methods-in-RESTful-API-development
+[https://www.techtarget.com/searchapparchitecture/tip/The-5-essential-HTTP-methods-in-RESTful-API-developmen](https://www.techtarget.com/searchapparchitecture/tip/The-5-essential-HTTP-methods-in-RESTful-API-development)
 
 
 ## 어노테이션
