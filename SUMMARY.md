@@ -14,4 +14,5 @@
   * [디버깅](day2/004_debuging.md)
   * [스프링 MVC](day2/005_spring_mvc.md)
   * [API](day2/006_api.md)
+  * [Controller](day2/007_controller.md)
 
