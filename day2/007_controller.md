@@ -102,7 +102,7 @@ public class CreateOrderResponse {
 }
 ```
 
-### DTO를 썼을 떄 좋은 예
+### DTO를 썼을 때 좋은 예
 
 만약에 HTTP가 아닌 요청(예 카프카)가 들어오더라도 Controller를 재작성함으로써 비즈니스 로직을 재활용할 수 있다.
 
@@ -119,7 +119,7 @@ public class OrderConsumer {
 
     @EventMapping(EventType.CREATE_ORDER)
     public void createOrder(@RequestBody CreateOrderMessage createOrderMessage)  {
-        return orderService.order(createOrderRequest.toModel());
+       return orderService.order(createOrderRequest.toModel());
     }
 }
 ```
