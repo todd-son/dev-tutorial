@@ -89,7 +89,7 @@ public class CreateOrderResponse {
         return new CreateOrderResponse(
                 order.getCoffeeName(),
                 order.getNumberOfOrders()
-        C) ;
+        );
     }
 
     public String getCoffeeName() {
