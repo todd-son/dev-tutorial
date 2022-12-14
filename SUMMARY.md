@@ -15,4 +15,11 @@
   * [스프링 MVC](day2/005_spring_mvc.md)
   * [API](day2/006_api.md)
   * [Controller](day2/007_controller.md)
+* [Day3 - JPA](day3/README.md)
+  * [JPA 소개](day3/001_jpa_introduction.md)
+  * [Spring Boot Data 소개](day3/002_data_introduction.md)
+  * [오브젝트 매핑](day3/003_object_mapping.md)
+  * [릴레이션 매핑](day3/004_entity_relationship_mapping.md)
+  * [Embeddable](day3/005_embeddable.md)
+  * [Fetch](day3/006_fetch.md)
 
