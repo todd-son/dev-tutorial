@@ -22,4 +22,11 @@
   * [릴레이션 매핑](day3/004_entity_relationship_mapping.md)
   * [Embeddable](day3/005_embeddable.md)
   * [Fetch](day3/006_fetch.md)
+* [Day4 - Spring Data JPA](day4/README.md)
+  * [Query Methods](day4/001_query_method.md)
+  * [Spring Boot Test](day4/002_spring_boot_test.md)
+  * [Paging And Sort](day4/003_paging_sort.md)
+  * [Query Specifications](day4/004_query_specification.md)
+  * [React Integration](day4/005_react.md)
+  * [React Routers](day4/006_react_routers.md)
 
