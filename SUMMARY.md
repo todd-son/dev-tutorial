@@ -38,4 +38,13 @@
   * [Mockito](day5/006_mockito.md)
   * [Transaction](day5/007_transactional.md)
   * [Summary](day5/008_summary.md)
+* [Day6 - Security](day6/README.md)
+  * [Spring Security](day6/001_spring_security.md)
+  * [Security Started](day6/002_security_started.md)
+  * [JWT](day6/003_security_jwt.md)
+  * [JWT + Security](day6/004_security_jwt2.md)
+  * [Business + Security](day6/005_member_join.md)
+  * [Exception Handling](day6/006_exception_handling.md)
+  
+
 
